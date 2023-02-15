@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Demo</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <main>
+  
+        <div id="home" class="fullWidthHeight gridHalf">
+            <img src="homeimage.jpg" alt="scenary" id="homeImg" />
+            <div class="flexCentre">
+                <div id="homeContent">
+                    <div>
+                        <h2 class="margin">
+                            <span id="comma">''</span> You’re one step closer for Integrating exceptional skill training
+                            solutions at your
+                            Institutions
+                            to <strong>Train & Analyse students skills. </strong>
+                        </h2>
+                        <h4 class="margin subText">Complete this form to schedule a live demo with our specialists.</h4>
+                    </div>
+                    <div class="flexSide">
+                        <button class="btn">Book a Demo</button>
+                        <div class="enter">press <strong>Enter</strong>
+                            <i class="fa fa-arrow-left"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <form action="">
+
+            <div class="fullWidthHeight flexCentre">
+                <div class="fields flexSide">
+                    <div>
+                        <div class="srno flexSide">
+                            <span>1</span>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="inputContainer">
+                        <label for="">Your <strong>name?</strong></label>
+                        <input class= "input"type="text" placeholder="Type your answer here..." onchange="detectChange()">
+                        <div class="flexSide">
+                            <button class="btn" type="button">OK <i class="fa fa-check"></i></button>
+                            <div class="enter">press <strong>Enter</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fullWidthHeight flexCentre">
+                <div class="fields flexSide">
+                    <div>
+                        <div class="srno flexSide">
+                            <span>2</span>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="inputContainer">
+                        <label for="">Your <strong>Email Id?</strong></label>
+                        <p class="subText margin">Email need to be verified whether it's a valid email address/not (optional)</p>
+                        <input class="input" type="text" placeholder="Type your answer here..." onchange="detectChange()">
+                        <div class="flexSide">
+                            <button class="btn" type="button">OK <i class="fa fa-check"></i></button>
+                            <div class="enter">press <strong>Enter</strong></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="fullWidthHeight flexCentre">
+                <div class="fields flexSide">
+                    <div>
+                        <div class="srno flexSide">
+                            <span>3</span>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="inputContainer">
+                        <label for="">Your <strong>Contact Number?</strong></label>
+                        <p class="subText margin">Please mention with country code (Ex :: +91 9876543210)</p>
+                        <input class="input" type="text" placeholder="Type your answer here...">
+                        <div class="flexSide">
+                            <button class="btn" type="button">OK <i class="fa fa-check"></i></button>
+                            <div class="enter">press <strong>Enter</strong></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="fullWidthHeight flexCentre">
+                <div class="fields flexSide">
+                    <div>
+                        <div class="srno flexSide">
+                            <span>4</span>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="inputContainer">
+                        <label for="">Your <strong>Institution Location?</strong></label>
+                        <p class="subText margin">Description (optional)</p>
+                        <input class="input" type="text" placeholder="Type your answer here...">
+                        <div class="flexSide">
+                            <button class="btn" type="button"> OK <i class="fa fa-check"></i></button>
+                            <div class="enter">press <strong>Enter</strong></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="fullWidthHeight flexCentre">
+                <div class="fields flexSide">
+                    <div>
+                        <div class="srno flexSide">
+                            <span>5</span>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                       
+                    </div>
+
+                    <div class="inputContainer">
+                        <label for="">Your <strong>Designation?</strong></label>
+                        <p class="subText margin">Description (optional)</p>
+                        <div class="box flexSide input">
+                            <div class="option">A</div>
+                            <h4>option a <i id="box0" class="fa fa-check"></i> </h4>
+                        </div>
+                        <div class="box flexSide">
+                             <div class="option">B</div>
+                             <h4>option b <i id="box1" class="fa fa-check"></i></h4>
+                        </div>
+                        <div class="box flexSide">
+                            <div class="option">C</div>
+                            <h4>option c <i id="box2" class="fa fa-check"></i></h4>
+                        </div>
+                        <a href="">Add choice</a>
+                        <div class="flexSide">
+                            <button class="btn" type="button">OK <i class="fa fa-check"></i></button>
+                            <div class="enter">press <strong>Enter</strong></div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="fullWidthHeight flexCentre">
+                <div class="fields flexSide">
+                    <div>
+                        <div class="srno flexSide">
+                            <span>6</span>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                       
+                    </div>
+                    <div class="inputContainer">
+                        <label for=""><strong>Select a date</strong> that best suits you and we'll be in touch to
+                            schedule a
+                            demo</label>
+                            <p class="subText">Our team is eager to explain how our products will help you achieve your goals.</p>
+                            <input class="input" type="date">
+                    <div class="flexSide">
+                        <button class="btn" onclick="thanks()"><strong>Submit</strong></button>
+                        <div class="enter">press <strong>Enter</strong></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </form>
+
+        <div id="scrollbar">
+            <div class="icon">
+                <i class="fa fa-arrow-up"></i>
+            </div>
+            <div class="icon">
+                <i class="fa fa-arrow-down"></i>
+            </div>
+        </div>
+        <div id="thanks" class="fullWidthHeight flexCentre hidden">
+            <div>
+                <h1>Thanks for your interest!</h1>
+            <p>Before our meeting, we share a product catalogue do have a look at it.</p>
+            <p>Encourage you to discover more about our products. Will get back to you shortly!!!</p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </main>
+</body>
+
+</html>
